@@ -8,24 +8,28 @@
 # Config #
 ##########
 
-DOWNLOAD_PATH='/tmp/njcs-tvr'
-DOWNLOAD_FILE='https://github.com/techdev5521/Not-Just-Computer-Services---TeamViewer-Replacement/archive/master.zip'
-DOWNLOAD_FILE_NAME='git.zip'
-WEB_ROOT='/var/www/html/'
+# Make temp folder to download into
+mkdir /var/www/html/update
 
-
+# Switch to newly made directory
+cd /var/www/html/update
 
 # Pull latest file from GitHub
-wget -O ${DOWNLOAD_PATH}/${DOWNLOAD_FILE_NAME} ${DOWNLOAD_FILE}
+wget -O git.zip https://github.com/techdev5521/Not-Just-Computer-Services---TeamViewer-Replacement/archive/master.zip
 
 # Extract the file
-unzip ${DOWNLOAD_PATH}/${DOWNLOAD_FILE_NAME}
+unzip git.zip
 
-# Delete the archive
-rm ${DOWNLOAD_PATH}/${DOWNLOAD_FILE_NAME}
+# Remove existing files
+cd ../
+rm -r $(ls | grep -v update)
+cd update/
 
 # Move new files over
-cp ${DOWNLOAD_PATH}/Not-Just-Computer-Services---TeamViewer-Replacement-master/web-interface/* ${WEB_ROOT}
+cp -rf Not-Just-Computer-Services---TeamViewer-Replacement-master/web-interface/* ../
 
-# Delete old files
-rm -r ${DOWNLOAD_PATH}/*
+# Move to web root
+cd ../
+
+# Cleanup
+rm -r update/
