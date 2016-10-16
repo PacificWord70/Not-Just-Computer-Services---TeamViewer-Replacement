@@ -15,4 +15,6 @@ echo "Connected successfully";
 
 // Get Variables
 
+print "Hi";
+
 ?>
