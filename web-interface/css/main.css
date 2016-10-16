@@ -1,14 +1,5 @@
-/* Main CSS File */
+/* Main CSS */
 
-.nav {
-  color: #5a5a5a;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 15px;
-  text-transform: uppercase;
-  border-bottom: 1px solid #dbdbdb;
-}
-
-.nav li {
-  display: inline;
+#header li{
+	display: inline;
 }

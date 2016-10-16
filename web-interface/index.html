@@ -1,45 +1,60 @@
 <!DOCTYPE html>
-<html>
-	
+<html lang="en">
 	<head>
+		<!-- Bootstrap Meta for Mobile -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 		<title>Hello there!</title>
-
 		<!-- Main CSS -->
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-
 		<!-- Normalizer CSS -->
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-
 		<!-- Bootstrap -->
-
-			<!-- Boostrap Meta -->
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-
-			<!-- Bootstrap CSS -->
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-			<!-- Optional Bootstrap theme -->
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-			<!-- Boostrap CSS -->
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<!-- End Bootstrap -->
 	</head>
-
+	
 	<body>
-		
-		<div class="nav">
-			<div class="container">
-				<ul class="pull-left">
-					<li>Not Just Computer Services - TeamViewer Replacement</li>
-				</ul>
-				<ul class="pull-right">
-					<li><a href="http://68.38.21.90/phpmyadmin/">phpMyAdmin</a></li>
-				</ul>
-			</div>
-		</div>
-		
-	</body>
+		<div class="container-fluid">
+			
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="http://68.38.21.90/">VNConnect</a>
+					</div>
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="http://68.38.21.90/">Home</a></li>
+						<li><a href="http://68.38.21.90/phpmyadmin/">phpMyAdmin</a></li>
+					</ul>
+				</div>
+			</nav>
+			
+			<div class="row">
+				
+				<div class="col-md-4">
+					<div id="list">
+						
+						<h1>List</h1>
 
+					</div>
+				</div>
+
+				<div class="col-md-8">
+					<div id="info">
+						
+						<h1>Info</h1>
+
+					</div>
+				</div>
+
+			</div>
+
+			
+		</div>
+	</body>
 </html>
