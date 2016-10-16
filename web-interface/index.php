@@ -30,6 +30,7 @@
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="http://68.38.21.90/">Home</a></li>
 						<li><a href="http://68.38.21.90/phpmyadmin/">phpMyAdmin</a></li>
+						<li><a href="http://68.38.21.90/daemon-connect.php">Daemon Connect</a></li>
 					</ul>
 				</div>
 			</nav>
