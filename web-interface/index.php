@@ -62,7 +62,7 @@
 						?>
 						<div class="list-item"><table>
 								<tr>
-									<td rowspan="2"><p id=<?php if(rand(0,1)){echo "offline-dot";}else{echo"online-dot";} ?> class="img-circle" style="text-align: right;"></p></td>
+									<td rowspan="2"><p id=<?php if(rand(0,1)||$i==0){echo "online-dot";}else{echo"offline-dot";} ?> class="img-circle" style="text-align: right;"></p></td>
 									<td rowspan="2"><img src=<?php echo $a[$i]; ?> class="img-circle" id="user-profile-list"></td>
 									<td class="list-names">
 										<b><?php ;
