@@ -28,8 +28,10 @@ echo "Connected successfully \n";
 
 // Get Variables
 
-print $_SERVER['REQUEST_METHOD'];
+$data = print $_SERVER['REQUEST_METHOD'];
 
-printArray($_POST);
+$data .= printArray($_POST);
+
+file_put_contents('output.txt', $data);
 
 ?>
