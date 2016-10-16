@@ -30,3 +30,27 @@
 .info-block{
 	border: 1px solid black;
 }
+#checkOnline{
+	float: right;
+	border: 1px solid black;
+	width:50%;
+	height: 50px;
+}
+#online-dot{
+	margin-right: 5px;
+	float: right;
+	border: 25px solid green;
+}
+#offline-dot {
+	margin-right: 5px;
+	float: right;
+	border: 25px solid red;
+}
+#OwnerInfo{
+	float: right;
+	border: 1px solid black;
+	width: 125%;
+	height: 100px;
+	clear: both;
+	margin-top: 1vh;
+}

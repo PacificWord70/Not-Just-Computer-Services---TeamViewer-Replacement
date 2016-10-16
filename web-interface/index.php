@@ -59,6 +59,20 @@
 						<h1>Info</h1>
 						<img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/border-collie-dog-breed-pictures/1-facethreequarters.jpg" class="img-circle" id="user-profile">
 
+						<div id="checkOnline"><h3>Online</h3>
+						<div id="OwnerInfo"><h3>Owner Information</h3></div></div>
+						<?php
+						if(false) {
+							?>
+							<div id="online-dot" class="img-circle"></div>
+							<?php
+						}else {
+							?>
+							<div id="offline-dot" class="img-circle"></div>
+							<?php
+						}
+						?>
+
 					</div>
 
 					<div >
