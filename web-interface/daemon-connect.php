@@ -34,8 +34,10 @@ $system_os = $_REQUEST['system-os'];
 $system_os_ver = $_REQUEST['system-os-ver'];
 $system_ram = $_REQUEST['system-ram'];
 
-echo $universal_id . " " . $network_hostname . " " . $network_ext_ip
+$content = $universal_id . " " . $network_hostname . " " . $network_ext_ip
 	 . " " . $network_int_ip . " " . $system_os . " " . $system_os_ver
 	  . " " . $system_ram;
+
+file_put_contents('output.txt', $content);
 
 ?>
