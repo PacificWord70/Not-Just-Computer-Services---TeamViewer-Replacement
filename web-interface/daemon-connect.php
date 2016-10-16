@@ -26,12 +26,6 @@ if ($conn->connect_error) {
 
 echo "Connected successfully \n";
 
-// Get Variables
-
-$data = print $_SERVER['REQUEST_METHOD'];
-
-$data .= printArray($_POST);
-
-file_put_contents('output.txt', $data);
+printArray($_REQUEST);
 
 ?>

@@ -53,15 +53,6 @@
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="col-md-12">
-						<form action="daemon-connect.php" method="POST">
-							<input type="text" name="name">
-							<input type="submit" text="submit">
-						</form>
-					</div>
-				</div>
-
 				<div class="col-md-8">
 					<div id="info">
 						
