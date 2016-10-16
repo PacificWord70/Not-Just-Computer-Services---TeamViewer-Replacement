@@ -1,0 +1,7 @@
+ID: 634gbs8
+Hostname: pal-nat186-17-82.itap.purdue.edu
+Internal IP: 10.186.17.82
+External IP: 128.210.106.52
+Ram Size: 8
+Operating System: Mac OS X
+Version: 10.11.4
