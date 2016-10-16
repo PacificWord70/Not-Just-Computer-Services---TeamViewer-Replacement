@@ -30,4 +30,6 @@ echo "Connected successfully \n";
 
 print $_SERVER['REQUEST_METHOD'];
 
+printArray($_POST);
+
 ?>
