@@ -15,7 +15,4 @@ echo "Connected successfully";
 
 // Get Variables
 
-echo "$_POST[] Prints Below:";
-print($_POST[]);
-
 ?>
