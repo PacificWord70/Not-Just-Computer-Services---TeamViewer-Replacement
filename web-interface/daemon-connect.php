@@ -1,4 +1,17 @@
 <?php
+
+////////////////////////////////////////////
+// Print 1 Deimensional Associative Array //
+////////////////////////////////////////////
+
+function printArray($arrayToPrint){
+	echo "<table><tr><td><b>Key</b></td><td><b>Value</b></td></tr>";
+	foreach ($arrayToPrint as $key => $value) {
+		echo "<tr><td>" . $key . "</td><td>" . $value . "</td></tr>";
+	}
+	echo "</table>";
+}
+
 $servername = "localhost";
 $username = "root";
 $password = "jman22355";
@@ -15,8 +28,6 @@ echo "Connected successfully \n";
 
 // Get Variables
 
-$name = $_POST['name'];
-echo $name;
-echo "Hello World";
+printArray($_POST[]);
 
 ?>
