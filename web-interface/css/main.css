@@ -33,7 +33,6 @@
 }
 #checkOnline{
 	float: right;
-	border: 1px solid black;
 	width:50%;
 	height: 50px;
 }
@@ -61,4 +60,20 @@
 	margin-top: 7px;
 	/*margin-bottom: 20px;*/
 
+}
+.list-names{
+	font-size: 20px;
+	font-family: "Times New Roman";
+}
+.list-type{
+	font-size: 20px;
+	font-family: "Times New Roman";
+}
+.fake{
+	font-size: 24px;
+	font-family: "Times New Roman";
+}
+#move {
+
+	font-size: 16px;
 }
