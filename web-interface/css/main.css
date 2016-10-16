@@ -3,3 +3,30 @@
 #header li{
 	display: inline;
 }
+.list-item{
+
+	height: 50px;
+	border: solid black 1px;
+}
+#outer-list{
+	border: 1px solid black;
+	max-height: 85vh;
+
+	overflow-y: scroll;
+
+}
+#info{
+}
+#user-profile{
+	max-width: 200px;
+	max-height: 200px;
+	margin-bottom: 20px;
+}
+.info-head{
+	margin-top: 0px;
+	border: 1px solid black;
+	padding: 0px;
+}
+.info-block{
+	border: 1px solid black;
+}

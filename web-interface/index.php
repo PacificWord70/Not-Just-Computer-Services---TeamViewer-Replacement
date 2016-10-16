@@ -40,7 +40,15 @@
 					<div id="list">
 						
 						<h1>List</h1>
-
+						<div id="outer-list">
+						<?php
+						for($i=0;$i<20;$i++) {
+							?>
+							<div class="list-item"></div>
+							<?php
+						}
+						?>
+						</div>
 					</div>
 				</div>
 
@@ -48,8 +56,30 @@
 					<div id="info">
 						
 						<h1>Info</h1>
+						<img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/border-collie-dog-breed-pictures/1-facethreequarters.jpg" class="img-circle" id="user-profile">
 
 					</div>
+
+					<div >
+						<div class="info-block">
+						<div>
+							<h3 class="info-head">Network Info</h3>
+						</div>
+							<br/>
+							<br/>
+						</div>
+						<div class="info-block">
+
+						<div>
+							<h3 class="info-head">System Info</h3>
+						</div>
+
+							<br/>
+							<br/>
+						</div>
+
+					</div>
+
 				</div>
 
 			</div>
