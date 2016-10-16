@@ -28,6 +28,6 @@ echo "Connected successfully \n";
 
 // Get Variables
 
-printArray($_POST[]);
+print $_SERVER['REQUEST_METHOD'];
 
 ?>
