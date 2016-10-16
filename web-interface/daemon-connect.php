@@ -26,6 +26,16 @@ if ($conn->connect_error) {
 
 echo "Connected successfully \n";
 
-printArray($_REQUEST);
+$universal_id = $_REQUEST['universal-id'];
+$network_hostname = $_REQUEST['network-hostname'];
+$network_ext_ip = $_REQUEST['network-ext-ip'];
+$network_int_ip = $_REQUEST['network-int-ip'];
+$system_os = $_REQUEST['system-os'];
+$system_os_ver = $_REQUEST['system-os-ver'];
+$system_ram = $_REQUEST['system-ram'];
+
+echo $universal_id . " " . $network_hostname . " " . $network_ext_ip
+	 . " " . $network_int_ip . " " . $system_os . " " . $system_os_ver
+	  . " " . $system_ram;
 
 ?>
