@@ -43,9 +43,13 @@
 						<h1>List</h1>
 						<div id="outer-list">
 						<?php
-						for($i=0;$i<20;$i++) {
+						for($i=0;$i<30;$i++) {
 							?>
-							<div class="list-item"></div>
+							<div class="list-item"><table>
+									<tr>
+										<td rowspan="2"><img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/border-collie-dog-breed-pictures/1-facethreequarters.jpg" class="img-circle" id="user-profile-list"></td>
+									</tr>
+								</table></div>
 							<?php
 						}
 						?>

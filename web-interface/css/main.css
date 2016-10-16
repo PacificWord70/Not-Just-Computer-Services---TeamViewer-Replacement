@@ -5,12 +5,12 @@
 }
 .list-item{
 
-	height: 50px;
+	height: 8vh;
 	border: solid black 1px;
 }
 #outer-list{
 	border: 1px solid black;
-	max-height: 85vh;
+	max-height: 88vh;
 
 	overflow-y: scroll;
 
@@ -21,6 +21,7 @@
 	max-width: 200px;
 	max-height: 200px;
 	margin-bottom: 20px;
+
 }
 .info-head{
 	margin-top: 0px;
@@ -53,4 +54,11 @@
 	height: 100px;
 	clear: both;
 	margin-top: 1vh;
+}
+#user-profile-list{
+	max-width: 7vh;
+	max-height: 7vh;
+	margin-top: 7px;
+	/*margin-bottom: 20px;*/
+
 }
