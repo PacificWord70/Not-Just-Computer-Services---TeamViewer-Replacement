@@ -15,6 +15,7 @@ echo "Connected successfully \n";
 
 // Get Variables
 
-print $_POST[];
+$name = $_POST['name'];
+echo $name;
 
 ?>
